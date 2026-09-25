@@ -1,0 +1,8 @@
+table,rows,columns,missing_cells,duplicate_rows
+courses,22,3,0,0
+assessments,206,6,11,0
+studentAssessment,173912,5,173,0
+studentInfo,32593,12,1111,0
+studentRegistration,32593,5,22566,0
+vle,6364,6,10486,0
+studentVle,10655280,6,0,787170

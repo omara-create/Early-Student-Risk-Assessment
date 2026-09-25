@@ -1,0 +1,16 @@
+model_a,model_b,n_pairs,wilcoxon_stat,p_raw,median_f1_difference_a_minus_b,p_holm,holm_significant_0_05
+decision_tree,lightgbm,5,0.0,0.0625,-0.02608337767866531,0.9375,False
+decision_tree,logistic_regression,5,7.0,1.0,0.00313083065041464,1.0,False
+decision_tree,majority_baseline,5,0.0,0.0625,0.0863312222758863,0.9375,False
+decision_tree,random_forest,5,0.0,0.0625,-0.02320046541268217,0.9375,False
+decision_tree,xgboost,5,0.0,0.0625,-0.02420308936779103,0.9375,False
+lightgbm,logistic_regression,5,0.0,0.0625,0.028209124653185702,0.9375,False
+lightgbm,majority_baseline,5,0.0,0.0625,0.11241459995455161,0.9375,False
+lightgbm,random_forest,5,6.0,0.8125,-0.0001669020617115491,1.0,False
+lightgbm,xgboost,5,5.0,0.625,-0.0012457982103025733,1.0,False
+logistic_regression,majority_baseline,5,0.0,0.0625,0.08532610179276401,0.9375,False
+logistic_regression,random_forest,5,0.0,0.0625,-0.02837602671489725,0.9375,False
+logistic_regression,xgboost,5,0.0,0.0625,-0.02733392001820567,0.9375,False
+majority_baseline,random_forest,5,0.0,0.0625,-0.11290364859303859,0.9375,False
+majority_baseline,xgboost,5,0.0,0.0625,-0.11466747632037189,0.9375,False
+random_forest,xgboost,5,5.0,0.625,-0.0010026239551088612,1.0,False

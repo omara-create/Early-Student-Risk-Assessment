@@ -1,0 +1,20 @@
+feature,source_table,type,availability_rule,data_type
+gender,studentInfo,static,entire record,categorical
+region,studentInfo,static,entire record,categorical
+highest_education,studentInfo,static,entire record,categorical
+imd_band,studentInfo,static,entire record,categorical
+age_band,studentInfo,static,entire record,categorical
+num_of_prev_attempts,studentInfo,static,entire record,numeric
+studied_credits,studentInfo,static,entire record,numeric
+disability,studentInfo,static,entire record,categorical
+total_clicks,studentVle,dynamic,date <= T25,numeric
+active_vle_days,studentVle,dynamic,date <= T25,numeric
+distinct_vle_sites,studentVle,dynamic,date <= T25,numeric
+vle_span_days,studentVle,dynamic,date <= T25,numeric
+early_assessments_submitted,studentAssessment,dynamic,submission <= T25,numeric
+mean_early_score,studentAssessment,dynamic,submission <= T25,numeric
+median_early_score,studentAssessment,dynamic,submission <= T25,numeric
+max_early_score,studentAssessment,dynamic,submission <= T25,numeric
+mean_submission_delay,studentAssessment,dynamic,submission <= T25,numeric
+late_early_submissions,studentAssessment,dynamic,submission <= T25,numeric
+assessment_submission_rate,studentAssessment/assessments,dynamic,all included records <= T25,numeric

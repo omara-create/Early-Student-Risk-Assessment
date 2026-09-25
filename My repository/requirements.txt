@@ -1,0 +1,12 @@
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+imbalanced-learn>=0.12
+scipy>=1.13
+matplotlib>=3.9
+seaborn>=0.13
+xgboost>=2.1
+lightgbm>=4.5
+joblib>=1.4
+openpyxl>=3.1
+statsmodels>=0.14

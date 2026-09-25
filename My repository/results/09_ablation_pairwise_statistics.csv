@@ -1,0 +1,7 @@
+configuration_a,configuration_b,n_pairs,wilcoxon_stat,p_raw,median_f1_difference_a_minus_b,p_holm,holm_significant_0_05
+A_static_default_no_smote,B_engineered_default_no_smote,5,0.0,0.0625,-0.15469197119006006,0.375,False
+A_static_default_no_smote,C_engineered_default_smote,5,0.0,0.0625,-0.15542079743481518,0.375,False
+A_static_default_no_smote,D_engineered_tuned_smote,5,0.0,0.0625,-0.1545848164745427,0.375,False
+B_engineered_default_no_smote,C_engineered_default_smote,5,3.0,0.3125,0.0011500668935816583,0.9375,False
+B_engineered_default_no_smote,D_engineered_tuned_smote,5,4.0,0.4375,-0.00045346361921427825,0.9375,False
+C_engineered_default_smote,D_engineered_tuned_smote,5,3.0,0.3125,-0.0022353665416525725,0.9375,False

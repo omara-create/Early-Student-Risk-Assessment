@@ -1,0 +1,2 @@
+smote_enabled,sampling_strategy,k_neighbors,application,validation_or_test_smote
+True,auto,5,training folds only,False
